@@ -14,7 +14,7 @@ int fibo(int n)
 }
 
 int main() {
-    for(int i=0; i<N; i++) dp[i] = -1 ;
+        for(int i=0; i<N; i++) dp[i] = -1 ;
 
 	cout << n << endl ;
 	cout << fibo(n) << endl ;
